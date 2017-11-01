@@ -8,8 +8,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card-white">
+  <div id="sidebar">
+    <ul>
+      <li><a href="#summary"><img class="smaller" src="images/pizza.png" alt="about"></a></li> <br> <br><br>
+      <li><a href="#favorite-artists"><img class="smaller" src="images/portrait.png" alt="artists"></a></li> <br> <br><br>
+      <li><a href="#help"><img class="smaller" src="images/at_sign.png" alt="help"></a></li><br><br><br>
+    </ul>
+  </div>
+  <div id="page-content" class="container">
+    <div id="summary" class="card-white">
       <img class="img-circle" src="images/toni.jpg" alt="Antoinette Panacek">
       <h1>Antoinette Panacek</h1>
       <h3>Programmer @Le Wagon</h3>
@@ -24,7 +31,7 @@
         <li><a href="https://twitter.com/toniczechit?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       </ul>
     </div>
-    <div class="card-white">
+    <div id="favorite-artists" class="card-white">
       <h3>My Favorite Artists:</h3>
       <table>
         <tbody>
@@ -52,7 +59,7 @@
         </tbody>
       </table>
     </div>
-    <div class="card-white">
+    <div id="help" class="card-white">
       <h3>About this Page:</h3>
       <p>This page has been coded during the
         <a href="https://www.lewagon.com/">Fullstack Program @ Le Wagon,</a>
